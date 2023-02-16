@@ -11,6 +11,7 @@ LoadObject = 0x34453a0;
 LineofSight = 0x4abca90;
 bone_matrix = 0x4A893B0;
 FreeMemory = 0x30cb7e0;
+Project_world_to_screen = 0x4BD4300;
 
 SkinChanger = 0x2487C30;
 SetAresOutlineMode = 0x4A3ABB0;

@@ -11,7 +11,7 @@ SetAresOutlineMode = 0x4A3ABB0
 
 GetActorBounds = 0x486CC80
 
-NoSpread Offsets
+//NoSpread Offsets
 GetSpreadValues = 0x2489E40
 GetSpreadAngles = 0x2B26CE0
 GetFiringLocationAndDirection = 0x296a090

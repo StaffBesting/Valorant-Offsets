@@ -1,27 +1,33 @@
-uworld state = 0x9182500
-uworld key = State + 0x38
+uworld state = 0x9182500;
+uworld key = State + 0x38;
 
-ProcessEvent = 0x3405390
-TriggerVEH = 0x1C15C00
-FindObject = 0x34435A0
-bone_matrix = 0x4A893B0
+object_state = 0x8feff00;
+object_key = gobject_state + 0x38;
 
-SkinChanger = 0x2487C30
-SetAresOutlineMode = 0x4A3ABB0
+ProcessEvent = 0x3405390;
+TriggerVEH = 0x1C15C00;
+FindObject = 0x34435A0;
+LoadObject = 0x34453a0;
+LineofSight = 0x4abca90;
+bone_matrix = 0x4A893B0;
+FreeMemory = 0x30cb7e0;
 
-GetActorBounds = 0x486CC80
+SkinChanger = 0x2487C30;
+SetAresOutlineMode = 0x4A3ABB0;
+
+GetActorBounds = 0x486CC80;
 
 //NoSpread Offsets
-GetSpreadValues = 0x2489E40
-GetSpreadAngles = 0x2B26CE0
-GetFiringLocationAndDirection = 0x296a090
-ToVectorAndNormalize = 0x314B130
-ToAngleAndNormalize = 0x3145030
-FiringStateComponent = 0x1010
-SeedData = 0x428
-StabilityComponent = 0x418
-ErrorPower = 0x3f8
-ErrorRetries = 0x3fc
+GetSpreadValues = 0x2489E40;
+GetSpreadAngles = 0x2B26CE0;
+GetFiringLocationAndDirection = 0x296a090;
+ToVectorAndNormalize = 0x314B130;
+ToAngleAndNormalize = 0x3145030;
+FiringStateComponent = 0x1010;
+SeedData = 0x428;
+StabilityComponent = 0x418;
+ErrorPower = 0x3f8;
+ErrorRetries = 0x3fc;
 
-portrait_map = 0x1120
-character_map = portrait_map + 0x8
+portrait_map = 0x1120;
+character_map = portrait_map + 0x8;
